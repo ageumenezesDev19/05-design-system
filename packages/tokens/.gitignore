@@ -1,0 +1,58 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Configurações do ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+dist/
+build/
+out/
+.next/
+public/static/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Sistema de arquivos
+.DS_Store
+Thumbs.db
+
+# Arquivos do sistema operacional
+*.tmp
+*.bak
+
+# Arquivos do Docker
+docker-compose.override.yml
+Dockerfile.dev
+
+# Arquivos de cache
+.cache/
+*.cache
+
+# Arquivos temporários do editor
+*.sublime-workspace
+*.sublime-project
+
+# Testes
+coverage/
+*.lcov
+
+# Outros arquivos temporários
+*.tmp
+*.log
