@@ -1,0 +1,4 @@
+{
+  "extends": "@emerald-ui/ts-config/react.json",
+  "includes": ["src"]
+}
