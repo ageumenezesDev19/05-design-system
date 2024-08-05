@@ -8,12 +8,14 @@
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.ts* --fix"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@emerald-ui/ts-config": "*",
+    "@emerald-ui/eslint-config": "*",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4"
   }
