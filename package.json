@@ -2,5 +2,10 @@
   "privet": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "@storybook/builder-vite": "^8.2.7",
+    "@storybook/react": "^8.2.7",
+    "vite": "^5.3.5"
+  }
 }
