@@ -1,5 +1,5 @@
 {
-  "name": "@emerald-ui/tokens",
+  "name": "@emerald-ui/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tsup": "^8.2.4"
+    "@emerald-ui/tokens": "*",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
   }
 }
