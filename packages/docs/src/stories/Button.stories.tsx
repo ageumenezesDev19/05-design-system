@@ -10,7 +10,11 @@ export default {
   },
 } as Meta<ButtonProps>
 
-export const Primary: StoryObj<ButtonProps> = {}
+export const Primary: StoryObj<ButtonProps> = {
+  args: {
+    size: 'big',
+  },
+}
 
 export const Big: StoryObj<ButtonProps> = {
   args: {
