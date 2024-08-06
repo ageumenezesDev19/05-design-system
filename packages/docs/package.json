@@ -13,6 +13,9 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@emerald-ui/react": "*",
+    "@emerald-ui/tokens": "*",
+    "@emerald-ui/eslint-config": "*",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
