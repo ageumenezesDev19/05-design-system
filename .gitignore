@@ -56,3 +56,5 @@ coverage/
 # Outros arquivos temporários
 *.tmp
 *.log
+
+.turbo

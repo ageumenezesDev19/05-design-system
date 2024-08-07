@@ -1,11 +1,18 @@
 {
-  "privet": true,
+  "name": "05-design-system",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
   "devDependencies": {
     "@storybook/builder-vite": "^8.2.7",
     "@storybook/react": "^8.2.7",
+    "turbo": "^2.0.12",
     "vite": "^5.3.5"
-  }
+  },
+  "packageManager": "npm@10.2.3"
 }
