@@ -9,7 +9,6 @@
     "build": "turbo run build"
   },
   "devDependencies": {
-    "@storybook/addon-docs": "^8.2.8",
     "@storybook/builder-vite": "^8.2.7",
     "@storybook/react": "^8.2.7",
     "turbo": "^2.0.12",
