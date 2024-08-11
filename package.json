@@ -14,5 +14,8 @@
     "turbo": "^2.0.12",
     "vite": "^5.3.5"
   },
-  "packageManager": "npm@10.2.3"
+  "packageManager": "npm@10.2.3",
+  "dependencies": {
+    "@storybook/addon-a11y": "^8.2.8"
+  }
 }
