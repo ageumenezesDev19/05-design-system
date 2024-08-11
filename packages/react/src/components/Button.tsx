@@ -93,3 +93,5 @@ export interface ButtonProps extends ComponentProps<typeof Button> {
   disabled?: boolean
   as?: ElementType
 }
+
+Button.displayName = 'Button'
