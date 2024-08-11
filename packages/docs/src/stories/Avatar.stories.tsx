@@ -9,6 +9,13 @@ export default {
     src: 'https://github.com/ageumenezesDev19.png?s=48',
     alt: 'Ageu Menezes',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
