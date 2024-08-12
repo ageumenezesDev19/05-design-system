@@ -1,12 +1,12 @@
 {
   "name": "@emerald-ui/tokens",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "publishConfig": {
-  "access": "public"
+    "access": "public"
   },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
