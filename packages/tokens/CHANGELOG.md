@@ -1,5 +1,11 @@
 # @emerald-ui/tokens
 
+## 2.2.1
+
+### Patch Changes
+
+- Add option to pass reference to TextInput and adjust some styles
+
 ## 2.2.0
 
 ### Minor Changes
